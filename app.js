@@ -107,7 +107,7 @@ function display() {
      if(document.getElementById("option").value === "option1") {
  
      let userIn = document.getElementById("inputBox").value;
-     document.getElementById("ded").innerText = "$" + userIn;
+     document.getElementById("ded").innerText =  userIn;
      const out = document.getElementById('gra');
      out.textContent = date5.toDateString();
      let userInp4 = document.getElementById("dis").value;
@@ -123,7 +123,7 @@ function display() {
 
      else if(document.getElementById("option").value === "option2") {
      let userIn1 = document.getElementById("inputBox").value;
-     document.getElementById("ded1").innerText =  "$" + userIn1;
+     document.getElementById("ded1").innerText = userIn1;
      const out1 = document.getElementById('gra1');
      out1.textContent = date5.toDateString();
      let userInp4 = document.getElementById("dis").value;
@@ -137,7 +137,7 @@ function display() {
      }
      else if(document.getElementById("option").value === "option3") {
      let userIn2 = document.getElementById("inputBox").value;
-     document.getElementById("ded2").innerText = "$" +  userIn2;
+     document.getElementById("ded2").innerText =  userIn2;
      const out2 = document.getElementById('gra2');
      out2.textContent = date5.toDateString();
      let userInp4 = document.getElementById("dis").value;
@@ -151,7 +151,7 @@ function display() {
      }
      else if(document.getElementById("option").value === "option4") {
      let userIn3 = document.getElementById("inputBox").value;
-     document.getElementById("ded3").innerText = "$" +  userIn3;
+     document.getElementById("ded3").innerText = userIn3;
      const out3 = document.getElementById('gra3');
      out3.textContent = date5.toDateString();
      let userInp4 = document.getElementById("dis").value;

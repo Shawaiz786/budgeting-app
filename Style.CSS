@@ -190,16 +190,16 @@ body{
     margin-top: -2.7dvi;
 }
 
-#ded {
+.fad {
     margin-left: 6dvi;
 }
-#ded1{
+.fad1{
     margin-left: 5.7dvi;
 }
-#ded2{
+.fad2{
     margin-left: 7.7dvi;
 }
-#ded3{
+.fad3{
     margin-left: 9.7dvi;
 }
 .cj{
@@ -226,3 +226,5 @@ body{
 .shaws{
     display: block;
 }
+
+
